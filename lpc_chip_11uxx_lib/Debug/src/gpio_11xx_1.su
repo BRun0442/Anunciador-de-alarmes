@@ -1,0 +1,12 @@
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:295:20:Chip_Clock_EnablePeriphClock	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:305:20:Chip_Clock_DisablePeriphClock	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/gpio_11xx_1.h:151:20:Chip_GPIO_SetPinDIROutput	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/gpio_11xx_1.h:163:20:Chip_GPIO_SetPinDIRInput	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/gpio_11xx_1.h:224:20:Chip_GPIO_SetPortDIROutput	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/gpio_11xx_1.h:238:20:Chip_GPIO_SetPortDIRInput	16	static
+../src/gpio_11xx_1.c:54:6:Chip_GPIO_Init	16	static
+../src/gpio_11xx_1.c:60:6:Chip_GPIO_DeInit	16	static
+../src/gpio_11xx_1.c:66:6:Chip_GPIO_WriteDirBit	24	static
+../src/gpio_11xx_1.c:77:6:Chip_GPIO_SetDir	32	static
+../src/gpio_11xx_1.c:88:6:Chip_GPIO_SetPinDIR	24	static
+../src/gpio_11xx_1.c:99:6:Chip_GPIO_SetPortDIR	24	static

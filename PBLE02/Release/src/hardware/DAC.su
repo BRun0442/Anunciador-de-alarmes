@@ -1,0 +1,3 @@
+../src/hardware/DAC.c:11:6:iniciaDAC	0	static
+../src/hardware/DAC.c:27:6:definirDAC	16	static
+../src/hardware/DAC.c:40:6:senoideDAC	8	static

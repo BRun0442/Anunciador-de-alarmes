@@ -1,0 +1,7 @@
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:295:20:Chip_Clock_EnablePeriphClock	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:305:20:Chip_Clock_DisablePeriphClock	16	static
+../src/timer_11xx.c:47:28:Chip_TIMER_GetClock	24	static
+../src/timer_11xx.c:71:6:Chip_TIMER_Init	16	static
+../src/timer_11xx.c:77:6:Chip_TIMER_DeInit	16	static
+../src/timer_11xx.c:83:6:Chip_TIMER_Reset	24	static
+../src/timer_11xx.c:103:6:Chip_TIMER_ExtMatchControlSet	32	static

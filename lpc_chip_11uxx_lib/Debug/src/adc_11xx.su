@@ -1,0 +1,17 @@
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:295:20:Chip_Clock_EnablePeriphClock	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:305:20:Chip_Clock_DisablePeriphClock	16	static
+../src/adc_11xx.c:49:23:getFullConvClk	8	static
+../src/adc_11xx.c:55:16:getClkDiv	48	static
+../src/adc_11xx.c:82:6:setStartMode	24	static
+../src/adc_11xx.c:90:8:readAdcVal	32	static
+../src/adc_11xx.c:108:6:Chip_ADC_Init	40	static
+../src/adc_11xx.c:134:6:Chip_ADC_DeInit	16	static
+../src/adc_11xx.c:143:8:Chip_ADC_ReadValue	24	static
+../src/adc_11xx.c:149:12:Chip_ADC_ReadStatus	24	static
+../src/adc_11xx.c:169:6:Chip_ADC_Int_SetChannelCmd	16	static
+../src/adc_11xx.c:180:6:Chip_ADC_SetStartMode	16	static
+../src/adc_11xx.c:194:6:Chip_ADC_SetSampleRate	40	static
+../src/adc_11xx.c:208:6:Chip_ADC_SetResolution	24	static
+../src/adc_11xx.c:215:6:Chip_ADC_EnableChannel	16	static
+../src/adc_11xx.c:227:6:Chip_ADC_SetBurstCmd	16	static
+../src/adc_11xx.c:240:8:Chip_ADC_ReadByte	48	static

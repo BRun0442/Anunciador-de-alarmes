@@ -1,0 +1,3 @@
+../src/util.c:6:7:manual_fabs	8	static
+../src/util.c:10:6:manual_roundf	8	static
+../src/util.c:14:7:floatParaString	32	static

@@ -1,0 +1,2 @@
+../src/hardware/ADC.c:21:6:iniciaADC	16	static
+../src/hardware/ADC.c:33:10:leSensor	16	static

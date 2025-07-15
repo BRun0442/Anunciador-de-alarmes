@@ -1,0 +1,6 @@
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/fmc_11xx.h:85:20:Chip_FMC_SetFLASHAccess	24	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:54:20:Chip_Clock_SetupSystemPLL	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:63:20:Chip_Clock_IsSystemPLLLocked	8	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:220:20:Chip_Clock_SetSysClockDiv	16	static
+C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\inc/clock_11xx.h:295:20:Chip_Clock_EnablePeriphClock	16	static
+../src/sysinit_11xx.c:51:6:Chip_SystemInit	8	static

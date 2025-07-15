@@ -1,0 +1,2 @@
+../src/ctl/stateMachine.c:8:6:iniciaSM	8	static
+../src/ctl/stateMachine.c:13:6:smLoop	24	static

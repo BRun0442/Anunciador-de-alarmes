@@ -1,0 +1,8 @@
+../src/hardware/RTC.c:12:6:getRTCData	8	static
+../src/hardware/RTC.c:25:6:getRTCSegundos	16	static
+../src/hardware/RTC.c:39:6:setRTCSegundos	24	static
+../src/hardware/RTC.c:53:6:getRTCMinutos	16	static
+../src/hardware/RTC.c:67:6:setRTCMinutos	24	static
+../src/hardware/RTC.c:80:6:getRTCHoras	16	static
+../src/hardware/RTC.c:94:6:setRTCHoras	24	static
+../src/hardware/RTC.c:108:6:iniciaRTC	8	static

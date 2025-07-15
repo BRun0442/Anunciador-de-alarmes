@@ -1,0 +1,3 @@
+../src/I2C.c:8:6:iniciaI2C	16	static
+../src/I2C.c:34:6:I2C_Transmitir	8	static
+../src/I2C.c:67:6:I2C_Receber	20	static

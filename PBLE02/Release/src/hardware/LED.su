@@ -1,0 +1,5 @@
+../src/hardware/LED.c:13:6:iniciaLED	16	static
+../src/hardware/LED.c:30:6:ligaLED	4	static
+../src/hardware/LED.c:50:6:desligaLED	4	static
+../src/hardware/LED.c:70:6:defineLED	4	static
+../src/hardware/LED.c:90:6:toggleLED	4	static

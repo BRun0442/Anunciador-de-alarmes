@@ -1,0 +1,4 @@
+../src/hardware/Teclado.c:8:6:iniciaTeclado	8	static
+../src/hardware/Teclado.c:17:5:lerBotaoPin	0	static
+../src/hardware/Teclado.c:19:5:lerBotao	8	static
+../src/hardware/Teclado.c:45:6:botaoLigaLED	8	static

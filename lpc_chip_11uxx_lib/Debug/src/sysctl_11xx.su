@@ -1,0 +1,4 @@
+../src/sysctl_11xx.c:88:6:Chip_SYSCTL_SetDeepSleepPD	16	static
+../src/sysctl_11xx.c:95:6:Chip_SYSCTL_SetWakeup	16	static
+../src/sysctl_11xx.c:104:6:Chip_SYSCTL_PowerDown	24	static
+../src/sysctl_11xx.c:115:6:Chip_SYSCTL_PowerUp	24	static
