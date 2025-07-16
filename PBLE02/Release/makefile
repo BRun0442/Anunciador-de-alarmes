@@ -43,7 +43,7 @@ main-build: PBLE02.axf
 PBLE02.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\bruno\Documents\LPC11U14\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\libs" -L"C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\Debug" -Xlinker -Map="PBLE02.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T "PBLE02_Release.ld" -o "PBLE02.axf" $(OBJS) $(USER_OBJS) $(LIBS) -lusbd_11uxx_lib -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\bruno\Documents\LPC11U14\nxp_lpcxpresso_11u14_board_lib\Debug" -L"C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\libs" -L"C:\Users\bruno\Documents\LPC11U14\lpc_chip_11uxx_lib\Debug" -Xlinker -Map="PBLE02.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T PBLE02_Release.ld -o "PBLE02.axf" $(OBJS) $(USER_OBJS) $(LIBS) -lusbd_11uxx_lib -lnxp_lpcxpresso_11u14_board_lib -llpc_chip_11uxx_lib
 	@echo 'Finished building target: $@'
 	@echo ' '
 

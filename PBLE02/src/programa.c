@@ -32,9 +32,17 @@ int main(void)
 
     while (1) {
 		if (millis_counter - last_sensor_read_time >= 50) {
+			static int i;
+
 			last_sensor_read_time = millis_counter;
 			valorLido = leSensor();
 			setSensorLevel(valorLido);
+
+			if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
+			{
+				i = (i < 16) ? (i + 1) : 0;
+				senoideDAC(i);
+			}
 		}
 
 		if (millis_counter - last_rtc_update_time >= 1000) {

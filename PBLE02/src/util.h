@@ -5,7 +5,7 @@
 
 #ifndef UTIL_H
 #define UTIL_H
-	#define GANHO_AMPOP 0.66
+	#define GANHO_AMPOP 0.605
 	float manual_fabs(float);
 	long manual_roundf(float);
 	char* floatParaString(float, char*);

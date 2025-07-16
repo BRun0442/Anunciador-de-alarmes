@@ -10,5 +10,5 @@
 
 	void iniciaDAC(void);
 	void definirDAC(uint16_t valor);
-	void senoideDAC(void);
+	void senoideDAC(int);
 #endif
