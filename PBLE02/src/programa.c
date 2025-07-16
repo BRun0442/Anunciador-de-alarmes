@@ -38,11 +38,13 @@ int main(void)
 			valorLido = leSensor();
 			setSensorLevel(valorLido);
 
-			if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
+			//Essa linha faz o codigo nao funcionar muito bem pois pesa muito o
+			//processamento do microcontrolador
+			/*if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
 			{
 				i = (i < 16) ? (i + 1) : 0;
 				senoideDAC(i);
-			}
+			}*/
 		}
 
 		if (millis_counter - last_rtc_update_time >= 1000) {
