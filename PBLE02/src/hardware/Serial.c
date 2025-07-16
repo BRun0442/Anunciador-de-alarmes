@@ -206,8 +206,7 @@ void processaComandoSerial(void)
                         serial_enviaString("#");
                     }
                     else if (cmd_body[0] == 't' && cmd_body[1] == 'i' && cmd_body[2] == 'm' && cmd_body[3] == 'e' && cmd_body[4] == '\0') {
-                        getRTCHoras(); getRTCMinutos(); getRTCSegundos();
-                        serial_enviaString("#");
+                        serial_enviaString("#time=");
                         serial_enviaInt2Dig(getHours());
                         serial_enviaString(":");
                         serial_enviaInt2Dig(getMinutes());

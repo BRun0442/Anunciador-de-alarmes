@@ -6,7 +6,7 @@
  * Generated linker script file for LPC11U14/201
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v24.12 [Build 148] [2025-01-10] on 15 de jul. de 2025 23:03:07
+ * MCUXpresso IDE v24.12 [Build 148] [2025-01-10] on 16 de jul. de 2025 16:07:34
  */
 
 INCLUDE "PBLE02_Release_library.ld"

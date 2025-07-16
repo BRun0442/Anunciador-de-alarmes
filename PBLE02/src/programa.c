@@ -32,19 +32,18 @@ int main(void)
 
     while (1) {
 		if (millis_counter - last_sensor_read_time >= 50) {
-			static int i;
-
+			static int i = 0;
 			last_sensor_read_time = millis_counter;
 			valorLido = leSensor();
 			setSensorLevel(valorLido);
 
 			//Essa linha faz o codigo nao funcionar muito bem pois pesa muito o
 			//processamento do microcontrolador
-			/*if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
+			if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
 			{
 				i = (i < 16) ? (i + 1) : 0;
 				senoideDAC(i);
-			}*/
+			}
 		}
 
 		if (millis_counter - last_rtc_update_time >= 1000) {
@@ -57,7 +56,7 @@ int main(void)
 
 			if(valorLido < getAlarmLevel_L() || valorLido > getAlarmLevel_H())
 			{
-				serial_enviaString("Sensor fora dos parametros! - ");
+				serial_enviaString("#Alerta=Sensor fora dos parametros! - ");
 				serial_enviaInt4Dig(valorLido);
 				serial_enviaString(" - ");
 				serial_enviaInt2Dig(getHours());
@@ -65,7 +64,10 @@ int main(void)
 				serial_enviaInt2Dig(getMinutes());
 				serial_enviaString(":");
 				serial_enviaInt2Dig(getSeconds());
+				serial_enviaString("#");
 				serial_enviaString("\n");
+			}else{
+				serial_enviaString("#normal=#");
 			}
 		}
 
